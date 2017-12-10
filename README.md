@@ -36,11 +36,13 @@ Now go into your new install of DF, and delete its raw/objects folder. You reall
 
 
 Step 4.
+
 Unzip the pack; as it is a fully integrated pack its file structure is already stored inside the pack.  so on most systems you should be able to just copy the dwarf fortress folder in the pack over the new dwarf fortress install you just made.  Any files that ask you to replace, select yes.
 
 
 
 Step 5.
+
 go to dwarf fortress/data/init and find the file labeled "LDF-overrides.txt"  This contains pverrides for the LDF pack, copy them into overrides.txt for whatever tileset you use...  Otherwise LDF buildings etc, will only show up as numbers!
 
 And that should be it!  Enjoy!
