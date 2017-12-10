@@ -186,6 +186,9 @@ entity_goblin
 	[GENERATE_MUSICAL_FORMS]
 	[GENERATE_DANCE_FORMS]
 
+	[TOY:ITEM_TOY_AXE]
+	[TOOL:ITEM_TOOL_PEDESTAL]
+
 <><><><><><><><>    Arms & Armor: Weapons & Ammo    <><><><><><><><>
 
 	[WEAPON:ITEM_WEAPON_HALBERD]
