@@ -8,6 +8,7 @@ creature_race_civil_elf
 	[CASTE_NAME:elf:elves:elven]
 	[CREATURE_TILE:'e'][COLOR:3:0:0]
 	[CREATURE_SOLDIER_TILE:137]
+	[CREATURE_CLASS:MAMMAL]
 	[INTELLIGENT]
 	[CANOPENDOORS]
 	[BENIGN]
