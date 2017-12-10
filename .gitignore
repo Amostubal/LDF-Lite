@@ -1,0 +1,95 @@
+thumbs.db
+.DS_Store
+*~
+*.kra
+*.dll
+*.exe
+*.json
+*.rst
+*.html
+*.xml
+*.MANIFEST
+readme.txt
+Dwarf Fortress/ss_fix.log
+Dwarf Fortress/soundsense_gamelog.txt
+Dwarf Fortress/raw/backup
+Dwarf Fortress/stderr.txt
+Dwarf Fortress/stdout.txt
+Dwarf Fortress/data/save/
+Dwarf Fortress/data/announcement/
+Dwarf Fortress/data/dipscript/
+Dwarf Fortress/data/help/
+Dwarf Fortress/data/initial_movies/
+Dwarf Fortress/data/movies/
+Dwarf Fortress/data/sound/
+Dwarf Fortress/data/index
+Dwarf Fortress/data/shader.*
+Dwarf Fortress/dfhack.history
+Dwarf Fortress/errorlog.txt
+Dwarf Fortress/map_rejection_log.txt
+Dwarf Fortress/gamelog.txt
+Dwarf Fortress/stderr.log
+Dwarf Fortress/stdout.log
+Dwarf Fortress/hack/scripts/LDF/RawFixer.lua
+Dwarf Fortress/data/init/embark_profiles.txt
+Dwarf Fortress/data/init/d_init.txt
+Dwarf Fortress/data/init/init.txt
+Dwarf Fortress/data/init/colors.txt
+Dwarf Fortress/data/init/arena.txt
+Dwarf Fortress/data/init/announcements.txt
+Dwarf Fortress/data/init/interface.txt
+Dwarf Fortress/data/init/world_gen.txt
+Dwarf Fortress/dfhack-config/default/
+Dwarf Fortress/dfhack-config/dfstatus.lua
+Dwarf Fortress/file changes.txt
+Dwarf Fortress/fort5x5-dig.csv
+Dwarf Fortress/hack/docs/
+Dwarf Fortress/hack/lua/
+Dwarf Fortress/hack/plugins/
+Dwarf Fortress/hack/raw/
+Dwarf Fortress/hack/ruby/
+Dwarf Fortress/hack/scripts/*.*
+Dwarf Fortress/hack/scripts/devel/
+Dwarf Fortress/hack/scripts/fix/
+Dwarf Fortress/hack/scripts/gui/
+Dwarf Fortress/hack/scripts/modtools/
+Dwarf Fortress/optipng license.txt
+Dwarf Fortress/onLoad.init-example
+Dwarf Fortress/raw/graphics/
+Dwarf Fortress/raw/interaction examples/
+Dwarf Fortress/data/art/_Dorenitems18x18.png
+Dwarf Fortress/data/art/_Dorenitems24x24.png
+Dwarf Fortress/data/art/_leoceanoverrides16x16.png
+Dwarf Fortress/data/art/_leoceanoverrides24x24.png
+Dwarf Fortress/data/art/_Spacefox_16x16LeoCeanOverrides.png
+Dwarf Fortress/data/art/_VanillaDF-24x-Items.png
+Dwarf Fortress/data/art/_WIPitems24x24.png
+Dwarf Fortress/data/art/_WIPoverridesWorkshops24x24.png
+Dwarf Fortress/data/art/Blank-16x16.png
+Dwarf Fortress/data/art/Blank-3x3-on-16x16.png
+Dwarf Fortress/data/art/Blank-5x5s-on-16x16.png
+Dwarf Fortress/data/art/Cherrywood_Menu.png
+Dwarf Fortress/data/art/curses_640x300.bmp
+Dwarf Fortress/data/art/curses_640x300.png
+Dwarf Fortress/data/art/curses_800x600.bmp
+Dwarf Fortress/data/art/curses_800x600.png
+Dwarf Fortress/data/art/curses_square_16x16.png
+Dwarf Fortress/data/art/curses_square_16x16.bmp
+Dwarf Fortress/data/art/font license.txt
+Dwarf Fortress/data/art/font.ttf
+Dwarf Fortress/data/art/Jecfox_10x16.png
+Dwarf Fortress/data/art/LDF-DwarfWorkshops.png
+Dwarf Fortress/data/art/mouse.bmp
+Dwarf Fortress/data/art/mouse.png
+Dwarf Fortress/data/art/shadows.png
+Dwarf Fortress/data/art/Spacefox_16x16_text.png
+Dwarf Fortress/data/art/SpacefoxNext_16x16.png
+Dwarf Fortress/data/art/SpacefoxNext_16x16-top.png
+Dwarf Fortress/data/art/SpacefoxNext_16x16-bg.png
+Dwarf Fortress/data/art/transparent1px.png
+Dwarf Fortress/data/art/white1px.png
+Dwarf Fortress/data/init/overrides_spacefox.txt
+Dwarf Fortress/data/init/overrides.txt
+Dwarf Fortress/release notes.txt
+Dwarf Fortress/sdl/sdl license.txt
+Dwarf Fortress/stonesense/
