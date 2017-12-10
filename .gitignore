@@ -93,3 +93,7 @@ Dwarf Fortress/data/init/overrides.txt
 Dwarf Fortress/release notes.txt
 Dwarf Fortress/sdl/sdl license.txt
 Dwarf Fortress/stonesense/
+Dwarf Fortress/command line.txt
+Dwarf Fortress/compress_bitmaps.bat
+*.init-example
+Dwarf Fortress/hack/dfhack_setarch.txt
