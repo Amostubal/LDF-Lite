@@ -1,7 +1,4 @@
 
-#####Call for Dwarf skill restrictions
-skill_restriction LDFdata/dwarf_restrictions.txt
-
 #####Dwarf Guild Hall Upgrades
 modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_MERCHANT_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_MERCHANT ]
 modtools/reaction-trigger -reactionName DWARF_UPGRADE_TO_CARPENTER_HALL -command [ building/subtype-change -building \\BUILDING_ID -type DWARF_GUILD_CARPENTER ]

@@ -1331,12 +1331,6 @@ closer to what I would prefer the order of the information in here.
 		[PERMITTED_REACTION:DWARF_FLOAT_CRYSTAL_TRIDENT]
 		[PERMITTED_REACTION:DWARF_FLOAT_CRYSTAL_GIANTAXE]
 
-#Dwarf Examination Room
-[PERMITTED_BUILDING:DWARF_EXAMINATION_ROOM]
-
-#Dwarf Debate Hall
-[PERMITTED_BUILDING:DWARF_DEBATE_HALL]
-
 #Dwarf Alcohol Reactions
 
 #Dwarf Water Pump Reactions

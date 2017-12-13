@@ -10,8 +10,8 @@ announces the same message every time, except CREDITS ... which will provide a l
 of people whose mods and files are included in this pack
 --]]
 
-VersionString="0.01"
-DFVersion="43.05 x64"
+VersionString="0.04"
+DFVersion="44.02 x64"
 
 LDFContributors={
  "Dead elves everywhere",
