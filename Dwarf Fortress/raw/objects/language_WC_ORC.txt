@@ -324,7 +324,7 @@ language_WC_ORC
 	[T_WORD:CLEAN:feruk]
 	[T_WORD:CLEANSE:vush]
 	[T_WORD:CLEAR:eldra]
-	[T_WORD:CLEARING:null]
+	[T_WORD:CLEARING:nult]
 	[T_WORD:CLEAVE:wrag'na]
 	[T_WORD:CLENCH:blurom]
 	[T_WORD:CLIMATE:vulgar]

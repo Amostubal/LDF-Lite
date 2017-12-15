@@ -4,12 +4,12 @@ All non-megabeast non-Warcraft or OC creatures here.
 
 [OBJECT:CREATURE]
 
-[CREATURE:MUTANT] 
+[CREATURE:ZM5_MUTANT] 
 	[NAME:mutant:mutants:mutant]
 	[CASTE:FEMALEMUTANT_STANCEHANDS]
         [CASTE_NAME:brute mutant:brute mutants:mutant]
-                [DESCRIPTION:A horrific creature, mutated by eating strange plants. It's neck and limbs are grossly elongated, and it runs on all fours. Any traces of the person it used to be are gone.]
-		[FEMALE]
+                [DESCRIPTION:A horrific creature, mutated by eating strange plants. Its neck and limbs are grossly elongated, and it runs on all fours. Any traces of the person it used to be are gone.]
+		[FEMALE][ORIENTATION:FEMALE:100:0:0][ORIENTATION:MALE:0:0:100]
                 [BODY:MUTANT_FEMALE_STANCEHANDS:5TOES_FOOTCON]
 		[MULTIPLE_LITTER_RARE]
                 [APPLY_CREATURE_VARIATION:STANDARD_QUADRUPED_GAITS:900:675:450:225:1900:2900] 39 kph
@@ -17,9 +17,9 @@ All non-megabeast non-Warcraft or OC creatures here.
 	        [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	        [APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph, NO DATA
 	[CASTE:MALEMUTANT_NOLEGS]
-                [DESCRIPTION:A horrific creature, mutated by eating strange plants. It is swollen with massive amounts of fat and crawls on it's hands, due to it's legs having completely atrophied away. Any traces of the person it used to be are gone.]
+                [DESCRIPTION:A horrific creature, mutated by eating strange plants. It is swollen with massive amounts of fat and crawls on its hands, due to its legs having completely atrophied away. Any traces of the person it used to be are gone.]
                 [CASTE_NAME:blob mutant:blob mutants:mutant]
-		[MALE]
+		[MALE][ORIENTATION:MALE:100:0:0][ORIENTATION:FEMALE:0:0:100]
                 [BODY:MUTANT_MALE_NOLEGS]
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
@@ -28,9 +28,9 @@ All non-megabeast non-Warcraft or OC creatures here.
 	        [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	        [APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph, NO DATA
         [CASTE:FEMALEMUTANT_ONEARM]
-                [DESCRIPTION:A horrific creature, mutated by eating strange plants. One of it's arms has completely atrophied away and fallen off, and the other is grossly enlarged. Any traces of the person it used to be are gone.]
+                [DESCRIPTION:A horrific creature, mutated by eating strange plants. One of its arms has completely atrophied away and fallen off, and the other is grossly enlarged. Any traces of the person it used to be are gone.]
                 [CASTE_NAME:one-armed mutant:one-armed mutants:mutant]
-		[FEMALE]
+		[FEMALE][ORIENTATION:FEMALE:100:0:0][ORIENTATION:MALE:0:0:100]
                 [BODY:MUTANT_FEMALE_ONEARM:5TOES]
 		[MULTIPLE_LITTER_RARE]
                 [APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:675:450:225:1900:2900] 39 kph
@@ -38,9 +38,9 @@ All non-megabeast non-Warcraft or OC creatures here.
 	        [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	        [APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph, NO DATA
 	[CASTE:MALEMUTANT_STANCEHANDS]
-                [DESCRIPTION:A horrific creature, mutated by eating strange plants. It's limbs are elongated and it crawls around in a spider-like manner. Any traces of the person it used to be are gone.]
+                [DESCRIPTION:A horrific creature, mutated by eating strange plants. Its limbs are elongated and it crawls around in a spider-like manner. Any traces of the person it used to be are gone.]
                 [CASTE_NAME:long-limb mutant:long-limb mutants:mutant]
-		[MALE]
+		[MALE][ORIENTATION:MALE:100:0:0][ORIENTATION:FEMALE:0:0:100]
                 [BODY:MUTANT_MALE_STANCEHANDS:5TOES_FOOTCON]
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
@@ -49,9 +49,9 @@ All non-megabeast non-Warcraft or OC creatures here.
 	        [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	        [APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph, NO DATA
         [CASTE:FEMALEMUTANT_SPIDER]
-                [DESCRIPTION:A horrific creature, mutated by eating strange plants. It's lower body has been enlarged to accomodate six additional legs, giving it a spider-like form. Any traces of the person it used to be are gone.]
+                [DESCRIPTION:A horrific creature, mutated by eating strange plants. Its lower body has been enlarged to accomodate six additional legs, giving it a spider-like form. Any traces of the person it used to be are gone.]
                 [CASTE_NAME:six-legged mutant:six-legged mutants:mutant]
-		[FEMALE]
+		[FEMALE][ORIENTATION:FEMALE:100:0:0][ORIENTATION:MALE:0:0:100]
                 [BODY:MUTANT_FEMALE_SPIDER:5TOES]
 		[MULTIPLE_LITTER_RARE]
                 [APPLY_CREATURE_VARIATION:STANDARD_QUADRUPED_GAITS:900:675:450:225:1900:2900] 39 kph
@@ -59,9 +59,9 @@ All non-megabeast non-Warcraft or OC creatures here.
 	        [APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:5341:4723:4112:1254:6433:7900] 7 kph
 	        [APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph, NO DATA
 	[CASTE:MALEMUTANT_TENTACLES]
-                [DESCRIPTION:A horrific creature, mutated by eating strange plants. A large amount of sinewy tentacles have burst from it's upper body, replacing it's arms. Any traces of the person it used to be are gone.]
+                [DESCRIPTION:A horrific creature, mutated by eating strange plants. A large amount of sinewy tentacles have burst from its upper body, replacing its arms. Any traces of the person it used to be are gone.]
                 [CASTE_NAME:tentacle mutant:tentacle mutants:mutant]
-		[MALE]
+		[MALE][ORIENTATION:MALE:100:0:0][ORIENTATION:FEMALE:0:0:100]
                 [BODY:MUTANT_MALE_TENTACLES:5TOES]
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 		[BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
@@ -415,8 +415,8 @@ All non-megabeast non-Warcraft or OC creatures here.
 		[ATTACK_PRIORITY:SECOND]
 		[ATTACK_FLAG_CANLATCH]
 
-[CREATURE:NIGHTMARE]
-	[DESCRIPTION:An eight-legged, horned steed with burning red eyes found running along evil plains and forests. Despite it's intimdating appearance, it doesn't behave differently from a normal horse.]
+[CREATURE:ZM5_NIGHTMARE]
+	[DESCRIPTION:An eight-legged, horned steed with burning red eyes found running along evil plains and forests. Despite its intimdating appearance, it doesn't behave differently from a normal horse.]
 	[NAME:nightmare:nightmares:nightmare]
 	[CASTE_NAME:nightmare:nightmares:nightmare]
 	[CREATURE_TILE:'N'][COLOR:0:0:1]
@@ -515,7 +515,7 @@ All non-megabeast non-Warcraft or OC creatures here.
 	[SWIMS_INNATE]
 	[MUNDANE]
 	[CASTE:FEMALE]
-		[FEMALE]
+		[FEMALE][ORIENTATION:FEMALE:100:0:0][ORIENTATION:MALE:0:0:100]
 		[MULTIPLE_LITTER_RARE]
 		[USE_MATERIAL_TEMPLATE:MILK:MILK_TEMPLATE]
 			[STATE_NAME:ALL_SOLID:frozen nightmare's milk]
@@ -539,7 +539,7 @@ All non-megabeast non-Warcraft or OC creatures here.
 			[PREFIX:NONE]
                 [STATE_COLOR:ALL:CHARCOAL]
 	[CASTE:MALE]
-		[MALE]
+		[MALE][ORIENTATION:MALE:100:0:0][ORIENTATION:FEMALE:0:0:100]
 		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:HAIR]

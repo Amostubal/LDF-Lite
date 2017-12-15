@@ -1,4 +1,4 @@
-item_shield_zm5
+item_shield_antiquan_zm5
 
 [OBJECT:ITEM]
 

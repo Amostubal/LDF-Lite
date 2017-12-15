@@ -1184,7 +1184,7 @@ language_SCOURGE
 	[T_WORD:MELT:ghala]
 	[T_WORD:MEMORY:lykrymir]
 	[T_WORD:MENACE:tyram]
-	[T_WORD:MERCHANT:epin]
+	[T_WORD:MERCHANT:egin]
 	[T_WORD:MERGE:ethilic]
 	[T_WORD:MESH:korbi]
 	[T_WORD:MESS:tyrice]

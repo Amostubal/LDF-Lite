@@ -1451,7 +1451,7 @@ language_DARK_IRON
 	[T_WORD:PULLEY:bethast]
 	[T_WORD:PULP:korgans]
 	[T_WORD:PUMPKIN:uric]
-	[T_WORD:PUNCH:urines]
+	[T_WORD:PUNCH:ulrin]
 	[T_WORD:PUNGENT:aggeld]
 	[T_WORD:PUPPET:kerik]
 	[T_WORD:PURE:keravan]

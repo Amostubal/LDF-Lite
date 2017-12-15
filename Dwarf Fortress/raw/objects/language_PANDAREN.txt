@@ -471,7 +471,7 @@ language_PANDAREN
 	[T_WORD:DEAD:jadenni]
 	[T_WORD:DEAR:vuduya]
 	[T_WORD:DEARTH:mu-da]
-	[T_WORD:DEATH:him]
+	[T_WORD:DEATH:khim]
 	[T_WORD:DECAY:chee]
 	[T_WORD:DECEIVER:joolo]
 	[T_WORD:DECENT:myanji]

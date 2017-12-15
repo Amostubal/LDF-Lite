@@ -1535,7 +1535,6 @@ Dementia
         [HEAVY_BRANCHES_NAME:tumor cluster:tumor clusters]
         [LIGHT_BRANCHES_NAME:tumor cluster:tumor clusters]
         [TWIGS_NAME:solidified cyst:soldified cysts]
-	[STANDARD_TILE_NAMES]
         [SAPLING_COLOR:4:0:0]
 	[DEAD_SAPLING_COLOR:5:0:0]
 	[PREFSTRING:tumorous growths]
