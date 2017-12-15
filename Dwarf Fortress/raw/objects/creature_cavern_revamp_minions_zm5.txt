@@ -5,7 +5,7 @@ Minion versions of some existing creatures.
 [OBJECT:CREATURE]
 
 [CREATURE:ZM5_INCUBATOR_MINION] 
-	[DESCRIPTION:A humanoid infested by the Insectari. It's right arm has been replaced by two ovipositors, it has grown a pair of mandibles, and a large hive sprouts from its bloated stomach. These simple-minded beings serve as nothing more than mobile hives and cannon fodder for the Insectari, and are functionally immortal until their bodies completely rot away.]
+	[DESCRIPTION:A humanoid infested by the Insectari. Its right arm has been replaced by two ovipositors, it has grown a pair of mandibles, and a large hive sprouts from its bloated stomach. These simple-minded beings serve as nothing more than mobile hives and cannon fodder for the Insectari, and are functionally immortal until their bodies completely rot away.]
 	[NAME:incubator:incubators:incubator]
 	[CASTE_NAME:incubator:incubators:incubator]
 	[CREATURE_TILE:'i'][COLOR:6:0:0]
@@ -201,7 +201,7 @@ Minion versions of some existing creatures.
 				[TLCM_NOUN:eyes:PLURAL]
 
 [CREATURE:ZM5_INFESTED_WALKER_MINION]
-	[DESCRIPTION:A zombie infested by a parasitic insect. It's fat, organs and eyes have been eaten out from the inside by the parasite for sustenance, and as a result it is now only a pained shell for the insect to use as a weapon.]
+	[DESCRIPTION:A zombie infested by a parasitic insect. Its fat, organs and eyes have been eaten out from the inside by the parasite for sustenance, and as a result it is now only a pained shell for the insect to use as a weapon.]
 	[NAME:infested walker:infested walkers:infested walker]
         [CASTE_NAME:infested walker:infested walkers:infested walker]
 	[CREATURE_TILE:'i'][COLOR:0:0:1]

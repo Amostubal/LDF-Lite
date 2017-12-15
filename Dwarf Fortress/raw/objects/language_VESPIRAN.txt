@@ -706,7 +706,7 @@ language_VESPIRAN
 	[T_WORD:FLANK VERB:shrak]
 	[T_WORD:FLANK:hodane]
 	[T_WORD:FLARE:omid]
-	[T_WORD:FLASH:land]
+	[T_WORD:FLASH:rand]
 	[T_WORD:FLAX:edaran]
 	[T_WORD:FLAY:ekhfid]
 	[T_WORD:FLEA:siabast]

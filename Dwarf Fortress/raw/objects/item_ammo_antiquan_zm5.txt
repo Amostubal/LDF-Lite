@@ -1,0 +1,10 @@
+item_ammo_antiquan_zm5
+
+[OBJECT:ITEM]
+
+[ITEM_AMMO:ITEM_AMMO_PILA]
+[NAME:pilum:pila]
+[CLASS:PILUM]
+[SIZE:150]
+[ATTACK:EDGE:15:10000:stab:stabs:NO_SUB:1000]
+	[ATTACK_PREPARE_AND_RECOVER:3:3]
