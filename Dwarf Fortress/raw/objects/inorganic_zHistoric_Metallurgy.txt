@@ -18,25 +18,6 @@ inorganic_zHistoric_Metallurgy
 	[ITEM_REACTION_PRODUCT:slag yield 1:BOULDER:NONE:INORGANIC:SLAG]
 	[ITEM_REACTION_PRODUCT:slag yield 2:BOULDER:NONE:INORGANIC:SLAG_IRON]
 	
-[INORGANIC:SLAG] Slag! Finally you can have your very own slag pile. Or slag doors... mugs... hm.
-	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:slag][DISPLAY_COLOR:6:7:0]
-	[ITEM_SYMBOL:'*']
-	[SOLID_DENSITY:4392] used fayalite (Fe2SiO4)
-	[MATERIAL_VALUE:1]
-	[IS_STONE]
-	[MELTING_POINT:12115]1175 Celsius, typical bloomery slag melting point.
-	
-[INORGANIC:SLAG_IRON]
-	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:iron-rich slag][DISPLAY_COLOR:6:7:0]
-	[ITEM_SYMBOL:'*']
-	[SOLID_DENSITY:4392]
-	[MATERIAL_VALUE:10]
-	[IS_STONE]
-	[MELTING_POINT:12115]
-	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:PIG_IRON]
-
 # These ores have been modified for LDF buildings to utilize properly... Also
 # since only LDF buildings designed for a race are available for smelting then
 # these inorganics have had their METAL_ORE tags returned in the ones needed.
@@ -94,17 +75,24 @@ inorganic_zHistoric_Metallurgy
 	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:IRON]
 	[MATERIAL_REACTION_PRODUCT:refined_ore:INORGANIC:REFINED_SIDERITE]
 
-[INORGANIC:FLINT] flint is a type of chert, which was allready in the game. Just assume that the chert stone is any chert that's not flint.
+[INORGANIC:SLAG] Slag! Finally you can have your very own slag pile.
 	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
-	[STATE_NAME_ADJ:ALL_SOLID:flint][DISPLAY_COLOR:0:7:1][TILE:'=']
-	[ENVIRONMENT_SPEC:LIMESTONE:CLUSTER:100]
-	[ENVIRONMENT_SPEC:CHALK:CLUSTER:100]
-	[ENVIRONMENT_SPEC:CHERT:CLUSTER:100]
-	[SOLID_DENSITY:2650] used chert
-	[MATERIAL_VALUE:3]
-	[MELTING_POINT:13101] used chert
-	[MAX_EDGE:15000] 3/4th of obsidian
-	[MATERIAL_REACTION_PRODUCT:sharp stone:INORGANIC:FLINT]
+	[STATE_NAME_ADJ:ALL_SOLID:slag][DISPLAY_COLOR:6:7:0]
+	[ITEM_SYMBOL:'*']
+	[SOLID_DENSITY:4392] used fayalite (Fe2SiO4)
+	[MATERIAL_VALUE:1]
+	[IS_STONE]
+	[MELTING_POINT:12115]1175 Celsius, typical bloomery slag melting point.
+	
+[INORGANIC:SLAG_IRON]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:iron-rich slag][DISPLAY_COLOR:6:7:0]
+	[ITEM_SYMBOL:'*']
+	[SOLID_DENSITY:4392]
+	[MATERIAL_VALUE:10]
+	[IS_STONE]
+	[MELTING_POINT:12115]
+	[MATERIAL_REACTION_PRODUCT:iron:INORGANIC:IRON]
 	
 [INORGANIC:METEORIC_IRON] high nickel content steel of meteoric origin.
 	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
@@ -151,6 +139,18 @@ inorganic_zHistoric_Metallurgy
 	[ITEM_REACTION_PRODUCT:finery yield 2:BAR:NONE:METAL:METEORIC_IRON]
 	[ITEM_REACTION_PRODUCT:trip yield 1:BAR:NONE:METAL:METEORIC_IRON]
 	[ITEM_REACTION_PRODUCT:trip yield 2:BAR:NONE:METAL:METEORIC_IRON]
+
+[INORGANIC:FLINT] flint is a type of chert, which was allready in the game. Just assume that the chert stone is any chert that's not flint.
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:flint][DISPLAY_COLOR:0:7:1][TILE:'=']
+	[ENVIRONMENT_SPEC:LIMESTONE:CLUSTER:100]
+	[ENVIRONMENT_SPEC:CHALK:CLUSTER:100]
+	[ENVIRONMENT_SPEC:CHERT:CLUSTER:100]
+	[SOLID_DENSITY:2650] used chert
+	[MATERIAL_VALUE:3]
+	[MELTING_POINT:13101] used chert
+	[MAX_EDGE:15000] 3/4th of obsidian
+	[MATERIAL_REACTION_PRODUCT:sharp stone:INORGANIC:FLINT]
 
 [INORGANIC:STEEL_TWICE]
 	[USE_MATERIAL_TEMPLATE:SOIL_TEMPLATE]
