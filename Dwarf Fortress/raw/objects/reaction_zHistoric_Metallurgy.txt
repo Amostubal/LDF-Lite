@@ -1,6 +1,10 @@
 reaction_zHistoric_Metallurgy
 
 [OBJECT:REACTION]
+╔═╗ ╔╗  ╦ ╔╦╗ ╦   ╔═╗ ╔═╗ ║╔═ ╔═╗ ╗ ╔═╗   ╗ ╔ ╦ ╔═╗ ╔╦╗ ╔═╗ ╔╗  ╦ ╔═╗   ╔╦╗ ╔═╗ ╔╦╗ ╔═╗ ╦   ╦   ║ ║ ╔╗  ╔═╗ ║ ║ 
+║╠╗ ╠╩╗ ║ ║║║ ║   ║ ║ ║   ╠╩╗ ╠╣    ╚═╗   ╠═╣ ║ ╚═╗  ║  ║ ║ ╠╩╗ ║ ║     ║║║ ╠╣   ║  ╠═╣ ║   ║   ║ ║ ╠╩╗ ║╠╗ ╚═╣
+╚═╝ ║ ║ ╩ ║╩║ ╚═╝ ╚═╝ ╚═╝ ║ ║ ╚═╝   ╚═╝   ╝ ╚ ╩ ╚═╝  ║  ╚═╝ ║ ║ ╩ ╚═╝   ║╩║ ╚═╝  ║  ║ ║ ╚═╝ ╚═╝ ╚═╝ ║ ║ ╚═╝  ═╝
+Revision 6c
 
 <><><><><><><><>    Bloomeries    <><><><><><><><>
 
@@ -15,6 +19,10 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BLOOM_SMALL:METAL:IRON_SPONGE]
 	[PRODUCT:33:1:BOULDER:NONE:INORGANIC:SLAG]
 	[SKILL:SMELT]
+	[DESCRIPTION:Smelt a single piece of iron ore with an equal measure of charcoal.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces a bloom that will need to be hammered in a forge and split into ingots.]
+	[DESCRIPTION:Cokes will not work due to their impurities.]
 
 [REACTION:CHIMNEY_BLOOMERY_IRON]  smelt 4 ore avg. 14-18 bar yield.
 	[NAME:smelt 4 iron ore]
@@ -27,6 +35,10 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:BOULDER:NONE:INORGANIC:SLAG]
 	[PRODUCT:33:1:BOULDER:NONE:INORGANIC:SLAG]
 	[SKILL:SMELT]
+	[DESCRIPTION:Smelt four pieces of ore with an equal measure of charcoal. Cokes will not work due to the impurities.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces a bloom that will need to be hammered in a forge and split into ingots.]
+	[DESCRIPTION:Cokes will not work due to their impurities.]
 
 
 <><><><><><><><>    Blast Furnace    <><><><><><><><>
@@ -46,6 +58,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:50:1:BOULDER:NONE:INORGANIC:IRON]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Smelt five pieces of iron ore with an equal measure of cokes or charcoal.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces pig iron that will need to be fined into workable iron.]
 	
 [REACTION:BLAST_IRON_COKE]
 	[NAME:smelt iron ore with coke]
@@ -62,6 +77,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:50:1:BOULDER:NONE:INORGANIC:IRON]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Smelt five pieces of iron ore with an equal measure of cokes.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces pig iron that will need to be fined into workable iron.]
 
 	
 <><><><><><><><>    Blast/puddle Furnace    <><><><><><><><>
@@ -74,6 +92,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:9:BAR:NO_SUBTYPE:METAL:IRON][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Turns nine bars of pig iron into iron by puddling.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Puddling is a fining process where impure molten iron is stirred in an open pool.]
 	
 [REACTION:PUDDLE_PIG_IRON_18]
 	[NAME:fine batch of 18 pig iron bars]
@@ -83,6 +104,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:18:BAR:NO_SUBTYPE:METAL:IRON][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Turns eighteen bars of pig iron into iron by puddling.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Puddling is a fining process where impure molten iron is stirred in an open pool.]
 
 
 <><><><><><><><>    Crucible Furnace    <><><><><><><><>
@@ -113,6 +137,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BILLET:METAL:STEEL_CRUCIBLE_ONCE]
 	[FUEL][FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Fire a crucible filled with iron, charcoal powder, glass shards and sand to produce crucible iron.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:The raw crucible steel will need to worked into usable material in a forge.]
 	
 	
 <><><><><><><><>    Finery and Chafery/String-hearth    <><><><><><><><>
@@ -133,6 +160,10 @@ reaction_zHistoric_Metallurgy
 	[FUEL]
 	[SKILL:SMELT]
 	[AUTOMATIC]
+	[DESCRIPTION:Remove slag from a bloom by heating and hammering it.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Requires the bloom to be a workable size first. Produces billets that may need further work.]
+	[DESCRIPTION:This reaction will run automatically from a finery forge, and can be manually ordered from a regular forge.]
 
 [REACTION:FINERY_HAMMER_BILLET] 
 	[NAME:hammer out billet]
@@ -143,14 +174,16 @@ reaction_zHistoric_Metallurgy
 	[REAGENT:unfinished billet:1:TOOL:ITEM_TOOL_BILLET:NONE:NONE]
 	[PRODUCT:100:3:GET_ITEM_DATA_FROM_REAGENT:unfinished billet:finery yield 1][PRODUCT_DIMENSION:150]
 	[PRODUCT:100:1:GET_ITEM_DATA_FROM_REAGENT:unfinished billet:finery yield 2][PRODUCT_DIMENSION:150]
-	[PRODUCT:33:1:GET_ITEM_DATA_FROM_REAGENT:bloom:slag yield 1][PRODUCT_DIMENSION:150]
-	[PRODUCT:12:1:GET_ITEM_DATA_FROM_REAGENT:bloom:slag yield 2][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:FORGE_FURNITURE]
 	[AUTOMATIC]
+	[DESCRIPTION:Remove impurities from a billet of metal by heating and hammering it.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Billets may need more than one round of treatment before being usable.]
+	[DESCRIPTION:This reaction will run automatically from a finery forge, and can be manually ordered from a regular forge.]
 	
 [REACTION:FINERY_HAMMER_BLOOM_LARGE]
-	[NAME:split up large bloom]
+	[NAME:split large bloom]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
 	[BUILDING:FINERY_FORGE:CUSTOM_Q]
@@ -159,9 +192,13 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:4:TOOL:ITEM_TOOL_BLOOM_SMALL:GET_MATERIAL_FROM_REAGENT:large bloom:NONE]
 	[SKILL:SMELT]
 	[AUTOMATIC]
+	[DESCRIPTION:Remove impurities from a billet of metal by heating and hammering it.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Billets may need more than one round of treatment before being usable.]
+	[DESCRIPTION:This reaction will run automatically from a finery forge, and can be manually ordered from a regular forge.]
 	
 [REACTION:FINERY_METEORITE->-BLOOM_SMALL]
-	[NAME:split up iron meteorite]
+	[NAME:split iron meteorite]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
 	[BUILDING:FINERY_FORGE:CUSTOM_E]
@@ -170,6 +207,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:4:TOOL:ITEM_TOOL_BLOOM_SMALL:GET_MATERIAL_FROM_REAGENT:iron meteorite:NONE]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Split an iron meteorite into seperate, workable pieces.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces blooms that can be worked into bars.]
 
 [REACTION:FINERY_STEEL_PATTERNED_START] 
 	[NAME:make pattern-welded billet]
@@ -183,9 +223,12 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BILLET:METAL:STEEL_PATTERNED_ONCE]
 	[FUEL]
 	[SKILL:FORGE_FURNITURE]
+	[DESCRIPTION:Sandwhich a bar of iron, steel and pig into and forge weld them to produce pattern-welded steel.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces a billet that will need to go through multiple rounds of hammering and folding.]
 	
 [REACTION:FINERY_IRON->-STEEL]
-	[NAME:case-harden 3 iron bars into steel]
+	[NAME:make steel billet by case hardening iron bars]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
 	[BUILDING:FINERY_FORGE:CUSTOM_C]
@@ -200,9 +243,12 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BILLET:METAL:STEEL_ONCE]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Produce medium-quality, homegenous steel by case hardening and folding iron bars.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Produces a billet that will need to go through multiple rounds of hammering and folding.]
 	
 [REACTION:FINERY_IRON->-PIG_IRON]
-	[NAME:case-harden iron bars into pig iron]
+	[NAME:make pig iron billet by case hardening iron bars]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:NONE]
 	[BUILDING:FINERY_FORGE:CUSTOM_SHIFT_C]
@@ -217,9 +263,12 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:BAR:NO_SUBTYPE:METAL:PIG_IRON][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Produce pig iron by thoroughly case hardening iron bars.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Only practical if you intend to produce pattern-welded steel.]
 	
 [REACTION:FINERY_STEEL->-PIG_IRON]
-	[NAME:case-harden steel bars into pig iron]
+	[NAME:make pig iron billet by case hardening steel bars]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:CUSTOM_ALT_C]
 	[BUILDING:FINERY_FORGE:CUSTOM_ALT_C]
@@ -234,17 +283,24 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:BAR:NO_SUBTYPE:METAL:PIG_IRON][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Produce pig iron by thoroughly case hardening steel bars.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Only practical if you intend to produce pattern-welded steel,]
+	[DESCRIPTION:or if you want to recycle steel for use in crucible steel making.]
 	
 [REACTION:FINERY_PIG_IRON_4->-SMALL_BLOOM]
-	[NAME:forge 4 pig iron bars into a billet]
+	[NAME:fine pig iron into iron]
 	[CATEGORY:FINERY]
 	[BUILDING:METALSMITH:CUSTOM_R]
 	[BUILDING:FINERY_FORGE:CUSTOM_R]
 	[BUILDING:MAGMA_FINERY_FORGE:CUSTOM_R]
-	[REAGENT:A:600:BAR:NO_SUBTYPE:METAL:PIG_IRON]
+	[REAGENT:A:150:BAR:NO_SUBTYPE:METAL:PIG_IRON]
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_BILLET:METAL:PIG_IRON]
 	[FUEL]
 	[SKILL:SMELT]
+	[DESCRIPTION:Produce iron by heating, folding and hammering pig iron.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:A labor intensive way of fining pig iron, if available a puddle furnace will fine pig iron more efficiently.]
 	
 	
 <><><><><><><><>    Trip Hammer 	<><><><><><><><>
@@ -263,6 +319,10 @@ reaction_zHistoric_Metallurgy
 	[FUEL]
 	[SKILL:SMELT]
 	[AUTOMATIC]
+	[DESCRIPTION:Remove slag from a bloom by heating and hammering it under this powered hammer.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Requires the bloom to be a workable size first. Produces billets that will need further work.]
+	[DESCRIPTION:Trip hammers will finish this process quicker than manual forges, and will run this reaction automatically.]
 
 [REACTION:TRIP_HAMMER_BILLET] 
 	[NAME:hammer out billet]
@@ -271,11 +331,12 @@ reaction_zHistoric_Metallurgy
 	[REAGENT:unfinished billet:1:TOOL:ITEM_TOOL_BILLET:NONE:NONE]
 	[PRODUCT:100:3:GET_ITEM_DATA_FROM_REAGENT:unfinished billet:trip yield 1][PRODUCT_DIMENSION:150]
 	[PRODUCT:100:1:GET_ITEM_DATA_FROM_REAGENT:unfinished billet:trip yield 2][PRODUCT_DIMENSION:150]
-	[PRODUCT:33:1:GET_ITEM_DATA_FROM_REAGENT:bloom:slag yield 1][PRODUCT_DIMENSION:150]
-	[PRODUCT:12:1:GET_ITEM_DATA_FROM_REAGENT:bloom:slag yield 2][PRODUCT_DIMENSION:150]
 	[FUEL]
 	[SKILL:FORGE_FURNITURE]
 	[AUTOMATIC]
+	[DESCRIPTION:Remove impurities from a billet of metal by heating and hammering it under this powered hammer.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Trip hammers will finish this process quicker than manual forges, and will run this reaction automatically.]
 	
 	
 <><><><><><><><>    Misc	<><><><><><><><>
@@ -288,6 +349,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:TOOL:ITEM_TOOL_CRUCIBLE:GET_MATERIAL_FROM_REAGENT:clay:FIRED_MAT]
 	[FUEL]
 	[SKILL:POTTERY]
+	[DESCRIPTION:Make a clay vessel used in the production of crucible steel.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Crucibles are consumed when used, each bar of crucible steel will need one of these crucibles.]
 	
 [REACTION:GLASS->-GLASS_POWDER]
 	[NAME:grind up raw glass(bag)]
@@ -303,6 +367,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:POWDER_MISC:NONE:GET_MATERIAL_FROM_REAGENT:raw glass:NONE][PRODUCT_DIMENSION:150]
 		[PRODUCT_TO_CONTAINER:bag]
 	[SKILL:MILLING]
+	[DESCRIPTION:Make a bag of powdered glass used in the production of crucible steel.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Each measure of glass will be enough for 5 bars of crucible steel.]
 	
 [REACTION:CHARCOAL->-CHARCOAL_POWDER]
 	[NAME:grind charcoal into powder(bag)]
@@ -317,7 +384,11 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:POWDER_MISC:NONE:COAL:CHARCOAL][PRODUCT_DIMENSION:150]
 		[PRODUCT_TO_CONTAINER:bag]
 	[SKILL:MILLING]
-
+	[DESCRIPTION:Make a bag of powdered charcoal used in the production of steel, iron and crucible steel.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Each measure of charcoal will be enough for five case hardered bars or five crucible steel bars.]
+	
+	Thanks to Amostubal for doing these for me :)
 [REACTION:GLASS->-GLASS_POWDER_2]
 	[NAME:grind up raw glass(jug)]
 	[BUILDING:QUERN:CUSTOM_S]
@@ -331,6 +402,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:POWDER_MISC:NONE:GET_MATERIAL_FROM_REAGENT:raw glass:NONE][PRODUCT_DIMENSION:150]
 		[PRODUCT_TO_CONTAINER:jug]
 	[SKILL:MILLING]
+	[DESCRIPTION:Make a jug of powdered glass used in the production of crucible steel.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Each measure of glass will be enough for 5 bars of crucible steel.]
 	
 [REACTION:CHARCOAL->-CHARCOAL_POWDER_2]
 	[NAME:grind charcoal into powder(jug)]
@@ -344,6 +418,9 @@ reaction_zHistoric_Metallurgy
 	[PRODUCT:100:1:POWDER_MISC:NONE:COAL:CHARCOAL][PRODUCT_DIMENSION:150]
 		[PRODUCT_TO_CONTAINER:jug]
 	[SKILL:MILLING]
+	[DESCRIPTION:Make a jug of powdered charcoal used in the production of steel, iron and crucible steel.]
+	[DESCRIPTION:    ]
+	[DESCRIPTION:Each measure of charcoal will be enough for five case hardered bars or five crucible steel bars.]
 	
 	
 <><><><><><><><>    Adventurer armor refitting	<><><><><><><><>
@@ -394,7 +471,7 @@ reaction_zHistoric_Metallurgy
 	[REAGENT:pliers:1:TOOL:ITEM_TOOL_PLIERS:NONE:NONE]
 		[PRESERVE_REAGENT]
 	[PRODUCT:100:1:SHOES:ITEM_SHOES_MAIL:GET_MATERIAL_FROM_REAGENT:mail chausse:NONE]
-
+	
 [REACTION:ADV_REFIT_ITEM_HELM_COIF_PADDED]
 	[NAME:refit mail coif]
 	[CATEGORY:ADV_REFITTING]
@@ -403,7 +480,7 @@ reaction_zHistoric_Metallurgy
 	[REAGENT:pliers:1:TOOL:ITEM_TOOL_PLIERS:NONE:NONE]
 		[PRESERVE_REAGENT]
 	[PRODUCT:100:1:HELM:ITEM_HELM_COIF_PADDED:GET_MATERIAL_FROM_REAGENT:padded coif:NONE]
-
+	
 [REACTION:ADV_REFIT_ITEM_ARMOR_GAMBESON]
 	[NAME:refit gambeson]
 	[CATEGORY:ADV_REFITTING]
@@ -412,7 +489,7 @@ reaction_zHistoric_Metallurgy
 	[REAGENT:pliers:1:TOOL:ITEM_TOOL_PLIERS:NONE:NONE]
 		[PRESERVE_REAGENT]
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_GAMBESON:GET_MATERIAL_FROM_REAGENT:gambeson:NONE]
-
+	
 [REACTION:ADV_REFIT_ITEM_ARMOR_AKETON]
 	[NAME:refit aketon]
 	[CATEGORY:ADV_REFITTING]
@@ -421,7 +498,7 @@ reaction_zHistoric_Metallurgy
 	[REAGENT:pliers:1:TOOL:ITEM_TOOL_PLIERS:NONE:NONE]
 		[PRESERVE_REAGENT]
 	[PRODUCT:100:1:ARMOR:ITEM_ARMOR_AKETON:GET_MATERIAL_FROM_REAGENT:aketon:NONE]
-
+	
 [REACTION:ADV_REFIT_ITEM_SHOES_BOOTS_PADDED]
 	[NAME:refit padded boot]
 	[CATEGORY:ADV_REFITTING]
