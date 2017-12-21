@@ -10,7 +10,7 @@ announces the same message every time, except CREDITS ... which will provide a l
 of people whose mods and files are included in this pack
 --]]
 
-VersionString="0.04"
+VersionString="0.06"
 DFVersion="44.02 x64"
 
 LDFContributors={
