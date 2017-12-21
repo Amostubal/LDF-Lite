@@ -1,6 +1,9 @@
 interaction_zHistoric_AnA
 
 [OBJECT:INTERACTION]
+This interaction should trigger on any thinking creature that is seeing an enemy.
+
+(Vaguely) simulates the adenaline rush of combat to prevent combatants form passing out due to minor injuries.
 
 [INTERACTION:BATTLE_FERVOUR]
 	[I_SOURCE:CREATURE_ACTION]

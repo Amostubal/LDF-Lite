@@ -4,7 +4,7 @@ item_armor
 ╔═╗ ╔╗  ╦ ╔╦╗ ╦   ╔═╗ ╔═╗ ║╔═ ╔═╗ ╗ ╔═╗   ╗ ╔ ╦ ╔═╗ ╔╦╗ ╔═╗ ╔╗  ╦ ╔═╗   ╔═╗ ╔╗  ╔╦╗ ╔═╗    ╔╗   ╔═╗ ╔╗  ╔╦╗ ╔═╗ ╔╗ 
 ║╠╗ ╠╩╗ ║ ║║║ ║   ║ ║ ║   ╠╩╗ ╠╣    ╚═╗   ╠═╣ ║ ╚═╗  ║  ║ ║ ╠╩╗ ║ ║     ╠═╣ ╠╩╗ ║║║ ╚═╗   ╔╩╣   ╠═╣ ╠╩╗ ║║║ ║ ║ ╠╩╗
 ╚═╝ ║ ║ ╩ ║╩║ ╚═╝ ╚═╝ ╚═╝ ║ ║ ╚═╝   ╚═╝   ╝ ╚ ╩ ╚═╝  ║  ╚═╝ ║ ║ ╩ ╚═╝   ║ ║ ║ ║ ║╩║ ╚═╝   ╚═╬   ║ ║ ║ ║ ║╩║ ╚═╝ ║ ║
-Revision 6a
+Revision 6c
 
 Bay12 forum thread: http://www.bay12forums.com/smf/index.php?topic=146737.0
 
@@ -363,8 +363,6 @@ Bay12 forum thread: http://www.bay12forums.com/smf/index.php?topic=146737.0
 	[LAYER_SIZE:14]
 	[LAYER_PERMIT:14]
 	[MATERIAL_SIZE:4]
-	[SCALED]
-	[BARRED]
 	[METAL]
 	[HARD]
 
